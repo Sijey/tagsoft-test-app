@@ -8,7 +8,7 @@ import thunk from "redux-thunk";
 import Characters from "./components/characters/Characters";
 import { Menu } from 'semantic-ui-react';
 import { NavLink } from 'react-browser-router';
-import { Redirect, Route, Switch } from 'react-router';
+import { Route, Switch } from 'react-router';
 
 const store = createStore(reducer, applyMiddleware(thunk));
 
